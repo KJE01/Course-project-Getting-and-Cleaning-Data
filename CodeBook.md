@@ -45,7 +45,7 @@ Notes:
 6. Save TidyDataSet.txt
 
 ##Cleaning of the data
-Link to readme document that describes the code in greater detail
+See the file [README.md] (https://github.com/KJE01/Course-project-Getting-and-Cleaning-Data/blob/master/README.md) that describes the code in greater detail.
 
 ##Description of the variables in the TidyDataSet.txt file
 Dimension of the data is 180x81. The 180 rows contain 30 subjects times 6 activities. The 81 variables are the activity label, the subject number and the 79 variables from the original raw data set with either ‘mean’ or ‘std’ in their name.
