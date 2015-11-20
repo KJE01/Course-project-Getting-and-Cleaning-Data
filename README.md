@@ -1,7 +1,7 @@
 # Course-project-Getting-and-Cleaning-Data
 ##Description of run_analysis.R
 
-Note: In this function it is assumed that the dplyr package is installed. Please install it if not already installed.
+Note: In this function it is assumed that the dplyr package is installed. Please install it if not already installed.   
 It is assumed that the working directory is the folder in which the files with the features names and activity_labels are stored (e.g. 'UCI HAR Dataset').
 
 Furthermore it is assumed that the actual data is in the subfolders 'test' and 'train'.
