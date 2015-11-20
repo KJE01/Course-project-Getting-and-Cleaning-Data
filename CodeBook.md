@@ -63,7 +63,7 @@ subject_nr - Integer
  Subject number   
   1..30 Unique identifier for each tested subject   
 
-The following variables are the means of mean and standard deviation of 3-axial (X, Y and Z) linear acceleration and 3-axial angular velocity. The acceleration signal, which has gravitational and body motion components, was separated into body acceleration and gravity. The variables are numerical and have a value in [-1,1]:   
+The following variables are the means of mean and standard deviation of 3-axial (X, Y and Z) linear acceleration and 3-axial angular velocity. The acceleration signal, which has gravitational and body motion components, was separated into body acceleration and gravity. The variables are numerical and have a value in [-1,1].   
 tBodyAcc-mean()-X   
 tBodyAcc-mean()-Y   
 tBodyAcc-mean()-Z   
