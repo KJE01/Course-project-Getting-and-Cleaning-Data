@@ -7,7 +7,7 @@ It is assumed that the working directory is the folder in which the files with t
 Furthermore it is assumed that the actual data is in the subfolders 'test' and 'train'.
 The R script run_analysis.R loads raw data and merges the test sets to create one data set. It writes an independent tidy data set with the average of each variable for each activity and each subject in a txt file named TidyDataSet.txt. Therefore the following steps are run:
 
-1. Load data and merge the training and test sets to one data set.
+1. Load data and merge the training and test sets to one data set.   
   Training data:
   * First the y_train data is cbinded with the X_train data in dataset1. This makes a dataframe with dimension 7352x562.
   * Then the subject_train data is cbinded with dataset1 to dataset1, so the dimension of dataset1 is 7352x563.
