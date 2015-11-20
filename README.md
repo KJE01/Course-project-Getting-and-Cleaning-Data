@@ -9,12 +9,12 @@ The R script run_analysis.R loads raw data and merges the test sets to create on
 
 1. Load data and merge the training and test sets to one data set.
   Training data:
-  ..* First the y_train data is cbinded with the X_train data in dataset1. This makes a dataframe with dimension 7352x562.
-  ..* Then the subject_train data is cbinded with dataset1 to dataset1, so the dimension of dataset1 is 7352x563.
+  * First the y_train data is cbinded with the X_train data in dataset1. This makes a dataframe with dimension 7352x562.
+  * Then the subject_train data is cbinded with dataset1 to dataset1, so the dimension of dataset1 is 7352x563.
 
-Test data: The same steps are applied as on the Training data. The result is dataset2 with a 	dimension of 			2947x563.
+  Test data: The same steps are applied as on the Training data. The result is dataset2 with a 	dimension of 			2947x563.
 
-dataset1 and dataset2 are rbinded into the dataframe dataset1. The dimension of dataset1 is 	now 10299x563.
+  dataset1 and dataset2 are rbinded into the dataframe dataset1. The dimension of dataset1 is 	now 10299x563.
 
 2. Rename variables
 A vector with “subject_nr”, “activity_label”, and the variable names from the file features.txt is constructed. This vector is assigned to the column names of dataset1.
