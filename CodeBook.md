@@ -50,7 +50,7 @@ Link to readme document that describes the code in greater detail
 ##Description of the variables in the TidyDataSet.txt file
 Dimension of the data is 180x81. The 180 rows contain 30 subjects times 6 activities. The 81 variables are the activity label, the subject number and the 79 variables from the original raw data set with either ‘mean’ or ‘std’ in their name.
 ###Variables
-*activity_label - Factor   
+* activity_label - Factor   
  Type of activity   
   LAYING   
   SITTING   
@@ -59,7 +59,7 @@ Dimension of the data is 180x81. The 180 rows contain 30 subjects times 6 activi
   WALKING DOWNSTAIRS   
   WALKING UPSTAIRS   
 
-*subject_nr - Integer   
+* subject_nr - Integer   
  Subject number   
   1..30 Unique identifier for each tested subject   
 
