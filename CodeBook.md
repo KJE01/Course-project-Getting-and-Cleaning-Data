@@ -48,98 +48,98 @@ Notes:
 Link to readme document that describes the code in greater detail
 
 ##Description of the variables in the TidyDataSet.txt file
-* Dimension of the data is 180x81. The 180 rows contain 30 subjects times 6 activities. The 81 variables are the activity label, the subject number and the 79 variables from the original raw data set with either ‘mean’ or ‘std’ in their name.
-Variables
-activity_label	Factor
-	Type of activity
-		LAYING
-		SITTING
-		STANDING
-		WALKING
-		WALKING DOWNSTAIRS
-		WALKING UPSTAIRS
+Dimension of the data is 180x81. The 180 rows contain 30 subjects times 6 activities. The 81 variables are the activity label, the subject number and the 79 variables from the original raw data set with either ‘mean’ or ‘std’ in their name.
+###Variables
+activity_label - Factor   
+	Type of activity   
+		LAYING   
+		SITTING   
+		STANDING   
+		WALKING   
+		WALKING DOWNSTAIRS   
+		WALKING UPSTAIRS   
 
-subject_nr	Integer
-	Subject number
-		1..30 Unique identifier for each tested subject
+subject_nr - Integer   
+	Subject number   
+		1..30 Unique identifier for each tested subject   
 
-The following variables are the means of mean and standard deviation of 3-axial (X, Y and Z) linear acceleration and 3-axial angular velocity. The acceleration signal, which has gravitational and body motion components, was separated into body acceleration and gravity. The variables are numerical and have a value in [-1,1]:
-tBodyAcc-mean()-X
-tBodyAcc-mean()-Y
-tBodyAcc-mean()-Z
-tBodyAcc-std()-X
-tBodyAcc-std()-Y
-tBodyAcc-std()-Z
-tGravityAcc-mean()-X
-tGravityAcc-mean()-Y
-tGravityAcc-mean()-Z
-tGravityAcc-std()-X
-tGravityAcc-std()-Y
-tGravityAcc-std()-Z
-tBodyAccJerk-mean()-X
-tBodyAccJerk-mean()-Y
-tBodyAccJerk-mean()-Z
-tBodyAccJerk-std()-X
-tBodyAccJerk-std()-Y
-tBodyAccJerk-std()-Z
-tBodyGyro-mean()-X
-tBodyGyro-mean()-Y
-tBodyGyro-mean()-Z
-tBodyGyro-std()-X
-tBodyGyro-std()-Y
-tBodyGyro-std()-Z
-tBodyGyroJerk-mean()-X
-tBodyGyroJerk-mean()-Y
-tBodyGyroJerk-mean()-Z
-tBodyGyroJerk-std()-X
-tBodyGyroJerk-std()-Y
-tBodyGyroJerk-std()-Z
-tBodyAccMag-mean()
-tBodyAccMag-std()
-tGravityAccMag-mean()
-tGravityAccMag-std()
-tBodyAccJerkMag-mean()
-tBodyAccJerkMag-std()
-tBodyGyroMag-mean()
-tBodyGyroMag-std()
-tBodyGyroJerkMag-mean()
-tBodyGyroJerkMag-std()
-fBodyAcc-mean()-X
-fBodyAcc-mean()-Y
-fBodyAcc-mean()-Z
-fBodyAcc-std()-X
-fBodyAcc-std()-Y
-fBodyAcc-std()-Z
-fBodyAcc-meanFreq()-X
-fBodyAcc-meanFreq()-Y
-fBodyAcc-meanFreq()-Z
-fBodyAccJerk-mean()-X
-fBodyAccJerk-mean()-Y
-fBodyAccJerk-mean()-Z
-fBodyAccJerk-std()-X
-fBodyAccJerk-std()-Y
-fBodyAccJerk-std()-Z
-fBodyAccJerk-meanFreq()-X
-fBodyAccJerk-meanFreq()-Y
-fBodyAccJerk-meanFreq()-Z
-fBodyGyro-mean()-X
-fBodyGyro-mean()-Y
-fBodyGyro-mean()-Z
-fBodyGyro-std()-X
-fBodyGyro-std()-Y
-fBodyGyro-std()-Z
-fBodyGyro-meanFreq()-X
-fBodyGyro-meanFreq()-Y
-fBodyGyro-meanFreq()-Z
-fBodyAccMag-mean()
-fBodyAccMag-std()
-fBodyAccMag-meanFreq()
-fBodyBodyAccJerkMag-mean()
-fBodyBodyAccJerkMag-std()
-fBodyBodyAccJerkMag-meanFreq()
-fBodyBodyGyroMag-mean()
-fBodyBodyGyroMag-std()
-fBodyBodyGyroMag-meanFreq()
-fBodyBodyGyroJerkMag-mean()
-fBodyBodyGyroJerkMag-std()
-fBodyBodyGyroJerkMag-meanFreq()
+The following variables are the means of mean and standard deviation of 3-axial (X, Y and Z) linear acceleration and 3-axial angular velocity. The acceleration signal, which has gravitational and body motion components, was separated into body acceleration and gravity. The variables are numerical and have a value in [-1,1]:   
+tBodyAcc-mean()-X   
+tBodyAcc-mean()-Y   
+tBodyAcc-mean()-Z   
+tBodyAcc-std()-X   
+tBodyAcc-std()-Y   
+tBodyAcc-std()-Z   
+tGravityAcc-mean()-X   
+tGravityAcc-mean()-Y   
+tGravityAcc-mean()-Z   
+tGravityAcc-std()-X   
+tGravityAcc-std()-Y   
+tGravityAcc-std()-Z   
+tBodyAccJerk-mean()-X   
+tBodyAccJerk-mean()-Y   
+tBodyAccJerk-mean()-Z   
+tBodyAccJerk-std()-X   
+tBodyAccJerk-std()-Y   
+tBodyAccJerk-std()-Z   
+tBodyGyro-mean()-X   
+tBodyGyro-mean()-Y   
+tBodyGyro-mean()-Z   
+tBodyGyro-std()-X   
+tBodyGyro-std()-Y   
+tBodyGyro-std()-Z   
+tBodyGyroJerk-mean()-X   
+tBodyGyroJerk-mean()-Y   
+tBodyGyroJerk-mean()-Z   
+tBodyGyroJerk-std()-X   
+tBodyGyroJerk-std()-Y   
+tBodyGyroJerk-std()-Z   
+tBodyAccMag-mean()   
+tBodyAccMag-std()   
+tGravityAccMag-mean()   
+tGravityAccMag-std()   
+tBodyAccJerkMag-mean()   
+tBodyAccJerkMag-std()   
+tBodyGyroMag-mean()   
+tBodyGyroMag-std()   
+tBodyGyroJerkMag-mean()   
+tBodyGyroJerkMag-std()   
+fBodyAcc-mean()-X   
+fBodyAcc-mean()-Y   
+fBodyAcc-mean()-Z   
+fBodyAcc-std()-X   
+fBodyAcc-std()-Y   
+fBodyAcc-std()-Z   
+fBodyAcc-meanFreq()-X   
+fBodyAcc-meanFreq()-Y   
+fBodyAcc-meanFreq()-Z   
+fBodyAccJerk-mean()-X   
+fBodyAccJerk-mean()-Y   
+fBodyAccJerk-mean()-Z   
+fBodyAccJerk-std()-X   
+fBodyAccJerk-std()-Y   
+fBodyAccJerk-std()-Z   
+fBodyAccJerk-meanFreq()-X   
+fBodyAccJerk-meanFreq()-Y   
+fBodyAccJerk-meanFreq()-Z   
+fBodyGyro-mean()-X   
+fBodyGyro-mean()-Y   
+fBodyGyro-mean()-Z   
+fBodyGyro-std()-X   
+fBodyGyro-std()-Y   
+fBodyGyro-std()-Z   
+fBodyGyro-meanFreq()-X   
+fBodyGyro-meanFreq()-Y   
+fBodyGyro-meanFreq()-Z   
+fBodyAccMag-mean()   
+fBodyAccMag-std()   
+fBodyAccMag-meanFreq()   
+fBodyBodyAccJerkMag-mean()   
+fBodyBodyAccJerkMag-std()   
+fBodyBodyAccJerkMag-meanFreq()   
+fBodyBodyGyroMag-mean()   
+fBodyBodyGyroMag-std()   
+fBodyBodyGyroMag-meanFreq()   
+fBodyBodyGyroJerkMag-mean()   
+fBodyBodyGyroJerkMag-std()   
+fBodyBodyGyroJerkMag-meanFreq()   
