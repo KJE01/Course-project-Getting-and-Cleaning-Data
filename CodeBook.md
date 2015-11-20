@@ -51,17 +51,17 @@ Link to readme document that describes the code in greater detail
 Dimension of the data is 180x81. The 180 rows contain 30 subjects times 6 activities. The 81 variables are the activity label, the subject number and the 79 variables from the original raw data set with either ‘mean’ or ‘std’ in their name.
 ###Variables
 activity_label - Factor   
-	Type of activity   
-		LAYING   
-		SITTING   
-		STANDING   
-		WALKING   
-		WALKING DOWNSTAIRS   
-		WALKING UPSTAIRS   
+  Type of activity   
+    LAYING   
+    SITTING   
+    STANDING   
+    WALKING   
+    WALKING DOWNSTAIRS   
+    WALKING UPSTAIRS   
 
 subject_nr - Integer   
-	Subject number   
-		1..30 Unique identifier for each tested subject   
+  Subject number   
+    1..30 Unique identifier for each tested subject   
 
 The following variables are the means of mean and standard deviation of 3-axial (X, Y and Z) linear acceleration and 3-axial angular velocity. The acceleration signal, which has gravitational and body motion components, was separated into body acceleration and gravity. The variables are numerical and have a value in [-1,1]:   
 tBodyAcc-mean()-X   
